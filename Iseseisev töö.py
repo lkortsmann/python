@@ -2,7 +2,7 @@
 # ; 1.1. Tervitus
 # ; Koostada programm, mis väljastaks ekraanile teksti Tere, maailm! täpselt sellisel kujul - koma ja hüüumärgiga.
 
-#print(Tere, maailm!)
+print(Tere, maailm!)
 
 # ; 1.2. Aasta liblikas
 # ; Koostada programm, mille
@@ -12,10 +12,10 @@
 # ; 4. real luuakse muutuja nimega lause, mille väärtuse saamiseks ühendatakse üheks sõnaks muutujad aasta, lause_keskosa ja liblikas (vajadusel tuleb kasutada funktsiooni, mis teisendab arvu sõneks);
 # ; 5. real väljastatakse muutuja lause väärtus ekraanile.
 
-# aasta = 2020
-# liblikas = "teelehe-mosaiikliblikas"
-# lause_keskosa = ". aasta liblikas on "
-# print(aasta,lause_keskosa,liblikas)
+aasta = 2020
+liblikas = "teelehe-mosaiikliblikas"
+lause_keskosa = ". aasta liblikas on "
+print(aasta,lause_keskosa,liblikas)
 
 
 
@@ -32,6 +32,9 @@ kõrgus = float(input("Mis on pilvede aluse kõrgus?: "))
 
 if kõrgus > 6:
         print("Need on ülemised pilved.")
+elif kõrgus >=2 and kõrgus <= 6:
+        print("Need on keskmised pilved")
+    
 else:
         print("Need ei ole alumised pilved!")
 
@@ -49,6 +52,15 @@ else:
 # ; inimeste arv: 20, kohtade arv: 40;
 # ; inimeste arv: 40, kohtade arv: 40.
 # ; Püüdke ka mõista, miks just sellised testandmed valiti.
+
+inimeste arv = int(input("Kui palju inimesi transportitakse"))
+kohtade arv = int(input("Sisestage kohtade arv"))
+if inimesed  // kohad <= 0:
+    bussid ==+1
+
+
+
+
 
 
 
